@@ -1,3 +1,9 @@
-.coloradoPic {
-    width: 200px;
+.test {
+    font-size: 25px;
+    color: brown;
+}
+
+.textTest {
+    color: brown;
+    background-color: cornflowerblue;
 }
