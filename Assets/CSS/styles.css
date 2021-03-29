@@ -5,7 +5,7 @@
 }
 
 .aboutmeheader {
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .about_text {
@@ -14,44 +14,70 @@
 
 .aboutmesection {
     margin-top: 15px;
-    border-bottom: black solid 3px;
     padding-bottom: 15px;
 }
 
 .academics_header {
-    margin-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-top: solid black 3px;
 }
 
 .academics_container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-bottom: solid black 3px;
-    padding-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .pb_image {
-    border: solid black 3px;
+    border: solid blue 3px;
 }
 
 .hlgu_image {
-    border: solid black 3px;
+    border: solid blue 3px;
 }
 
 .washu_image {
-    border: solid black 3px;
+    border: solid blue 3px;
+}
+
+.projects_header {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-top: solid black 3px;
 }
 
 .projects_container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-bottom: solid black 3px;
-    padding-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .contact_footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: blanchedalmond;
+}
+
+.text_orientation {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    background-color: #4A7BB4;
+    color: darkgray;
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+}
+
+.text_orientation1 {
+    position: absolute;
+    margin-top: 145px;
+    right: 30px;
+    background-color: #4A7BB4;
+    color: darkgray;
+    font-size: 40px;
+    padding: 10px 10px 10px 10px;
 }
