@@ -1,9 +1,15 @@
-.test {
-    font-size: 25px;
-    color: brown;
+.profile_picture {
+    height: 250px;
+    margin-right: 15px;
 }
 
-.textTest {
-    color: brown;
-    background-color: cornflowerblue;
+.aboutmeheader {
+    margin-top: 15px;
+    border-bottom: black solid 3px;
+}
+
+.aboutmesection {
+    margin-top: 15px;
+    border-bottom: black solid 3px;
+    padding-bottom: 15px;
 }
