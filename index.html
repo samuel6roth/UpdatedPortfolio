@@ -21,13 +21,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
+                    <a class="nav-link" href="#aboutme">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Work</a>
+                    <a class="nav-link" href="#academics">Academics</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Me</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Resume</a>
@@ -45,40 +45,81 @@
 
     <div class="container-fluid">
 
-        <div class="row">
-          <div class="col text-center aboutmeheader">
-            <h1>About Me</h1>
-          </div>
+        <div class="row" id="aboutme">
+            <div class="col text-center aboutmeheader">
+                <h1>About Me</h1>
+            </div>
         </div>
 
         <div class="row aboutmesection">
             <div class="col">
+                <img class="profile_picture float-left" src="./Assets/Images/Profilepic.png" alt="Samuel Roth Picture">
                 <div>
-                    <img class="profile_picture float-left" src="./Assets/Images/Profilepic.png" alt="Samuel Roth Picture">
-                    <div>
-                        <div>Hello, my name is Samuel Roth. I was born and raised in Poplar Bluff, MO. Currently, I am an apprentice mold designer and builder at my fathers plastic injection molding factory. I enjoy my profession very much because it often requires critical thinking and problem solving skills. A few of the softwares I am familiar with and machines I can run include: Vero VISI, Solidworks, manual lathe, bridgeport milling machine, Fadal CNC machine, Agie EDM machine, and surface grinding machine.</div>
-                        <div>In my free time, I enjoy spending time with my fiance, visiting family, hunting, fishing, traveling, spending time outdoors, working on the farm, riding horses, and building stuff. My most recent build was a teardrop camper.</div>
-                    </div>
+                    <div class="about_text">Hello, my name is Samuel Roth. I was born and raised in Poplar Bluff, MO. Currently, I am an apprentice mold designer and builder at my fathers plastic injection molding factory. I enjoy my profession very much because it often requires critical thinking and problem solving skills. A few of the softwares I am familiar with and machines I can run include: Vero VISI, Solidworks, manual lathe, bridgeport milling machine, Fadal CNC machine, Agie EDM machine, and surface grinding machine.</div>
+                    <div class="about_text">In my free time, I enjoy spending time with my fiance, visiting family, hunting, fishing, traveling, spending time outdoors, working on the farm, riding horses, and building stuff. My most recent build was a teardrop camper.</div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-          <div class="col text-center">
-            <h1>Work</h1>
+        <div class="row" id="academics">
+          <div class="col text-center academics_header">
+            <h1>Academics</h1>
           </div>
         </div>
 
         <div class="row">
-          <div class="col">
-            2 of 3
-          </div>
-          <div class="col">
-            3 of 3
-          </div>
+            <div class="col academics_container">
+                <img class="pb_image" src="./Assets/Images/PB.jpeg" alt="Poplar Bluff Mules Logo" height="300px">
+              </div>
+            <div class="col academics_container">
+                <img class="hlgu_image" src="./Assets/Images/HLGUlogo.jpeg" alt="Hannibal-LaGrange University Logo" height="300px">
+            </div>
+            <div class="col academics_container">
+                <img class="washu_image" src="./Assets/Images/WashUlogo.png" alt="Washington University Logo" height="300px">
+            </div>
         </div>
+
+
+        <div class="row" id="projects">
+            <div class="col text-center">
+              <h1>Projects</h1>
+            </div>
+          </div>
+
+        <div class="row">
+            <div class="col projects_container">
+                <a href="https://samuel6roth.github.io/Week3HW/" target="_blank">
+                    <img class="" src="./Assets/Images/passwordgen.webp" alt="Password Generator Logo" height="250px">
+                </a>
+            </div>
+            <div class="col projects_container">
+                <a href="https://samuel6roth.github.io/DayPlanner/" target="_blank">
+                    <img class="" src="./Assets/Images/dailyplanner.jpg" alt="Daily Planner Logo" height="250px">
+                </a>
+            </div>
+            <div class="col projects_container">
+                <a href="https://samuel6roth.github.io/HoroscopeFinder/" target="_blank">
+                    <img class="" src="./Assets/Images/horoscope.jpeg" alt="Horoscope Logo" height="250px">
+                </a>
+            </div>
+          </div>
         
     </div>
+
+
+    <nav>
+        <ul class="contact_footer">
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/samuel6roth" target="_blank">Github</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/samuel-roth-40210415b/" target="_blank">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mailto:samuel6roth@gmail.com">Email</a>
+            </li>
+        </ul>
+    </nav>
 
 
 
